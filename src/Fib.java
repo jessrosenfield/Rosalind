@@ -34,7 +34,6 @@ public class Fib {
             rabbits[0] += rabbits[1];
             rabbits[1] = rabbits[2];
         }
-        rabbits[2] = rabbits[0] * k;
         long totalRabbits = 0;
         for (long rabbitAge : rabbits) {
             totalRabbits += rabbitAge;
